@@ -126,8 +126,9 @@ nav a {
 .img-slider .slide img{
     z-index: 1;
     position: absolute;
-    width: 500px;
-    margin: 100px 0px 0px 0px;
+    width: 475px;
+    height: auto;
+    margin: 80px 0px 0px 15px;
     border-radius: 15px;
     padding: 10px;
 }
@@ -149,6 +150,7 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     width: 680px;
+    height: auto;
     left: 520px;
     padding: 30px;
     margin-top: 10px;
@@ -229,15 +231,28 @@ nav a {
 /*carrossel*/
 
 #tcc-buttons {
-    text-align: center;
-    margin: 0 auto;
     width: 100%;
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/View/img/biblioteca.jpg);
     background-size: cover;
     background-position: center;
 }
+.area-tcc-button{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.space-button{
+    width: 470px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgba(214, 214, 214, 0.78);
+}
 
+.space-button img{
+    width: 150px;
+}
 .tcc-button {
     display: inline-block;
     margin: 50px;
