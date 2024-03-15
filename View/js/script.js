@@ -73,7 +73,7 @@ var repeat = function(activeClass){
                 return;
             }
             repeater();
-        }, 10000);
+        }, 15000);
     }
     repeater();
 }
